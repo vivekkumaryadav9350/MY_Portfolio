@@ -53,7 +53,7 @@ function App() {
 
           <div className="hero-image">
             <img
-              src="src\assets\profile.jpg.jpeg"
+              src="\profile.jpg.jpeg"
               alt="Profile"
             />
           </div>
@@ -110,7 +110,7 @@ function App() {
              {/* weather app */}
             <div className="project-card">
               <img
-                src="src\assets\Weather-App.png"
+                src="\Weather-App.png"
                 alt="Project"
               />
 
@@ -135,7 +135,7 @@ function App() {
 
             <div className="project-card">
               <img
-                src="src\assets\ecommerce-layout-react.png"
+                src="\ecommerce-layout-react.png"
                 alt="Project"
               />
               <h3>E-Commerce Website</h3>
@@ -157,7 +157,7 @@ function App() {
 
             <div className="project-card">
               <img
-                src="src\assets\password_generator.png"
+                src="\password_generator.png"
                 alt="Project"
               />
               <h3>Password Generator</h3>
@@ -178,7 +178,7 @@ function App() {
 
             <div className="project-card">
               <img
-                src="src\assets\to-do-list.png"
+                src="\to-do-list.png"
                 alt="Project"
               />
               <h3>TO-DO-LIST</h3>
@@ -200,7 +200,7 @@ function App() {
                
                <div className="project-card">
               <img
-                src="src\assets\amazon-landing.png"
+                src="\amazon-landing.png"
                 alt="Project"
               />
               <h3>Amazon-Landing-Page</h3>
@@ -221,7 +221,7 @@ function App() {
 
                <div className="project-card">
               <img
-                src="src\assets\curency_Convertor.png"
+                src="\curency_Convertor.png"
                 alt="Project"
               />
               <h3>Currency-Convertor</h3>
@@ -245,7 +245,7 @@ A simple web application that allows users to convert one currency into another 
 
  <div className="project-card">
               <img
-                src="src\assets\Tic-Tac-Toe.png"
+                src="\Tic-Tac-Toe.png"
                 alt="Project"
               />
               <h3>Tic-Tac-Toe</h3>
