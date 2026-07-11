@@ -275,3 +275,77 @@ footer {
     font-size: 20px;
   }
 }
+
+.email{
+  color:black;
+  cursor: pointer;
+}
+.phone{
+  color: black;
+  cursor: pointer;
+}
+
+/* Experience */
+
+.experience-card{
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    transition:.3s;
+    margin-top:30px;
+}
+
+.experience-card:hover{
+    transform:translateY(-8px);
+}
+
+.experience-card h3{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.experience-card h4{
+    color:#444;
+    margin-bottom:10px;
+}
+
+.experience-date{
+    color:#777;
+    margin-bottom:15px;
+    font-weight:600;
+}
+
+.experience-card p{
+    line-height:1.8;
+}
+
+/* Certificate */
+
+.certificate-card{
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    margin-top:30px;
+    transition:.3s;
+}
+
+.certificate-card:hover{
+    transform:translateY(-8px);
+}
+
+.certificate-card h3{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.certificate-date{
+    color:#777;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.certificate-card p{
+    line-height:1.8;
+}

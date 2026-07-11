@@ -11,20 +11,20 @@ function App() {
           <nav>
             <h2 className="logo">Vivek.</h2>
 
-            <ul className="nav-links">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
-               
-                
-            </ul>
+           <ul className="nav-links">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#skills">Skills</a></li>
+  <li><a href="#experience">Experience</a></li>
+  <li><a href="#certificate">Certificate</a></li>
+  <li><a href="#projects">Projects</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
           </nav>
         </div>
       </header>
 
-
+           
 
 
       {/* Hero Section */}
@@ -66,9 +66,14 @@ function App() {
         <div className="container">
           <h2 className="section-title">About Me</h2>
 
-          <p className="about-text">
-          Hi, I'm Vivek Kumar, a B.Tech student in Artificial Intelligence and Data Science. I am passionate about web development and have experience building responsive websites and web applications using HTML, CSS, JavaScript, React.js, and TypeScript. I also have knowledge of Node.js and MySQL. I enjoy learning new technologies and creating projects that solve real-world problems. 🚀
-          </p>
+<p className="about-text">
+  Hi, I'm Vivek Kumar, a B.Tech student in Artificial Intelligence and Data Science with a strong passion for Frontend Development. I build responsive and user-friendly web applications using HTML, CSS, JavaScript, React.js, TypeScript, Bootstrap, and Tailwind CSS.
+
+I also have knowledge of Node.js, MySQL, Microsoft Office, CRM software, and Data Entry. Along with software development, I have professional experience as a Customer Relationship Officer (CRO), where I developed strong communication, customer handling, customer support, and administrative skills.
+
+I enjoy learning new technologies and building projects that solve real-world problems.
+</p>
+
         </div>
       </section>
 
@@ -92,9 +97,79 @@ function App() {
             <div className="skill-card">Node.js</div>
             <div className="skill-card">BootStrap</div>
             <div className="skill-card">Tailwind</div>
+            <div className="skill-card">Microsoft Office (Excel, Word, PowerPoint)</div>
+            <div className="skill-card">CRM Software</div>
+           <div className="skill-card">Data Entry</div>
+           <div className="skill-card">Customer Support</div>
           </div>
         </div>
       </section>
+
+
+
+
+      {/* Experience */}
+
+<section id="experience" className="section">
+  <div className="container">
+
+    <h2 className="section-title">Experience</h2>
+
+    <div className="experience-card">
+
+      <h3>Customer Relationship Officer (CRO)</h3>
+
+      <h4>Dunac Motors, Bikaner (Tata Motors Commercial)</h4>
+
+      <p className="experience-date">
+        <strong>Duration:</strong> 06 February 2025 – 10 March 2026
+      </p>
+
+      <p>
+        Worked as a Customer Relationship Officer (CRO) at
+        <strong> Dunac Motors, Bikaner</strong>, where I handled
+        CRM software, customer support, customer relationship
+        management, data entry, file management, cold calling,
+        online customer communication, appointment scheduling,
+        follow-up calls, customer feedback collection, and
+        administrative tasks while ensuring excellent customer
+        satisfaction and maintaining professional client relationships.
+      </p>
+
+    </div>
+
+  </div>
+</section>
+
+
+{/* Certificate */}
+
+<section id="certificate" className="section bg-light">
+  <div className="container">
+
+    <h2 className="section-title">Certificates</h2>
+
+    <div className="certificate-card">
+
+      <h3>NVIDIA – Deep Fundamentals Workshop</h3>
+
+      <p className="certificate-date">
+        <strong>Year:</strong> 2024
+      </p>
+
+      <p>
+        Successfully completed the <strong>NVIDIA Deep Fundamentals</strong>
+        One-Day Workshop organized by the
+        <strong> Placement Cell, Engineering College Bikaner</strong>.
+        The workshop provided an introduction to AI, Deep Learning,
+        GPU Computing, and NVIDIA technologies.
+      </p>
+
+    </div>
+
+  </div>
+</section>
+
 
 
 
@@ -278,9 +353,10 @@ A simple two-player Tic-Tac-Toe game built with an interactive user interface. P
           <h2 className="section-title">Contact Me</h2>
 
           <div className="contact-box">
-            <p>Email: Vivekkumaryadav98282@gmail.com <span>&#9993;</span></p>
-            <p>Phone: +91 9350162703<span>&#9742;</span></p>
+            <p> Email: <a className="email" href="mailto:vivekkumaryadav98282@gmail.com">Vivekkumaryadav98282@gmail.com</a> <span>&#9993;</span></p>
+            <p> Phone: <a className="phone" href="tel:9350162703">+91 9350162703</a><span>&#9742;</span></p>
             <p>Location: Bikaner,Rajasthan, India<span>&#127968;</span></p>
+           
           </div>
         </div>
       </section>
